@@ -2,10 +2,10 @@
   "name": "wp5-starter-react",
   "version": "1.0.0",
   "scripts": {
-    "dev": "yarn webpack-dev-server --open --mode development --liveReload",
+    "dev": "webpack-dev-server --open --mode development --liveReload",
     "start": "serve ./dist -l 8080 --cors",
     "build": "yarn webpack --mode production",
-    "build:dev": "yarn webpack --mode development"
+    "build:dev": "webpack --mode development"
   },
   "license": "MIT",
   "author": {
