@@ -9,8 +9,8 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Jack Herrington",
-    "email": "jherr@pobox.com"
+    "name": "Philip Johnston",
+    "email": "stackshuffle@gmail.com"
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
