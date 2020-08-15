@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server --open --mode development --liveReload",
-    "start": "webpack-dev-server --open --mode development",
+    "start": "serve ./dist -l 8080 --cors",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development"
   },
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "serve": "^11.3.2"
   }
 }
